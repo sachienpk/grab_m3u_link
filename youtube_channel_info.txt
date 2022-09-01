@@ -1,5 +1,0 @@
-~~ DO NOT EDIT THE FIRST 2 LINES
-~~ FORMAT: <channel name> | <group name> | <logo> | <tvg-id>
-
-1 | 1 | | 
-https://github.com/gresketh/perma/raw/585edbbf0df0477fb6266b359bd2d77a0f05d940/rubikcube
