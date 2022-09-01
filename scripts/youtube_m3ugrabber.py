@@ -25,8 +25,8 @@ def grab(url):
     while True:
         if 'https://' in response[end-tuner : end]:
             link = response[end-tuner : end]
-            start = link.find('https://')
-            end = link.find('.m3u8') + 5
+            start = link.find('#EXTM3U')
+            end = link.find('https://22403.live.streamtheworld.com/GOLD905_PREM.aac') + 5
             break
         else:
             tuner += 5
