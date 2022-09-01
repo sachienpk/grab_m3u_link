@@ -23,7 +23,7 @@ def grab(url):
     end = response.find('#EXTM3U') + 5
     tuner = 100
     while True:
-        if 'https://' in response[end-tuner : end]:
+        if '#EXTM3U' in response[end-tuner : end]:
             link = response[end-tuner : end]
             start = link.find('#EXTM3U')
             end = link.find('https://22403.live.streamtheworld.com/GOLD905_PREM.aac') + 5
@@ -37,8 +37,6 @@ def grab(url):
     #print(f"{link[start : end]}")
 
 print('#EXTM3U')
-print('#EXT-X-VERSION:3')
-print('#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000')
 s = requests.Session()
 with open('../youtube_channel_info.txt') as f:
     for line in f:
