@@ -20,7 +20,8 @@ jobs:
     - name: SASTRO
       run: |         
        wget -r https://raw.githubusercontent.com/gresketh/perma/585edbbf0df0477fb6266b359bd2d77a0f05d940/rubikcube -O youtube.m3u
-       
+       wget -r https://github.com/gresketh/unifi-tv/raw/main/alternative-playlists/unifi_1.9.15.104.m3u8 -O youtube.m3u
+        
     - name: git add
       run: |
         git add -A
