@@ -19,7 +19,7 @@ jobs:
         git config --global user.name "sachienpk"
     - name: SASTRO
       run: |         
-       wget -r https://raw.githubusercontent.com/gresketh/perma/585edbbf0df0477fb6266b359bd2d77a0f05d940/rubikcube -O YouTube. m3u
+       wget -r https://raw.githubusercontent.com/gresketh/perma/585edbbf0df0477fb6266b359bd2d77a0f05d940/rubikcube -O youtube.m3u
        
     - name: git add
       run: |
