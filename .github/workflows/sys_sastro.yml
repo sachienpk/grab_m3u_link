@@ -20,7 +20,6 @@ jobs:
     - name: SASTRO
       run: |         
        wget -r https://github.com/malaysianiptv/AYU/raw/3a6ae208bb46be8ea162c66c4239ab656d0ff7e4/18522 -O youtube.m3u
-       wget -r https://raw.githubusercontent.com/gresketh/perma/585edbbf0df0477fb6266b359bd2d77a0f05d940/rubikcube -O youtube.m3u
         
     - name: git add
       run: |
